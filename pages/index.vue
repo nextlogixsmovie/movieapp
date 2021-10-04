@@ -4,7 +4,7 @@
     <Hero />
       <!-- Search -->
     <div class="container search">
-      <input type="text" v-model="searchInput" placeholder="Search" @keyup.enter="$fetch"/>
+      <input type="text" v-model="searchInput" placeholder="Search In Nexlogixs" @keyup.enter="$fetch"/>
       <button v-show="searchInput" class="button" @click="clearSearch">Clear Search</button>
     </div>
         <!-- Loading Animation -->
@@ -27,17 +27,17 @@
     name: 'home',
     head() {
       return {
-        title: 'Movie App - Latest Streaming Movie Info',
+        title: 'Nextlogixs - Movie App',
         meta: [
           {
             hid: 'description',
             name: 'description',
-            content: 'Get all the latest streaming movies in theaters & online',
+            content: 'Nextlogixs app get all the latest streaming movies in theaters & online',
           },
           {
             hid: 'keywords',
             name: 'keywords',
-            content: 'movies, stream, stremaing',
+            content: 'nextlogixs, movie, app',
           },
         ],
       }
