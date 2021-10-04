@@ -7,10 +7,10 @@
     <NuxtLink class="button" :to="{ name: 'index' }"> Back </NuxtLink>
     <div class="movie-info">
       <div class="movie-img">
-        <img
-        :src="`https://image.tmdb.org/t/p/w500/${movie.poster_path}`"
-        alt=""
-        />
+        <figure>
+          <img :src="`https://image.tmdb.org/t/p/w500/${movie.poster_path}`" alt="No Image In Nexlogixs" />
+          <figcaption>Nexlogixs {{ movie.title.slice(0, 25)}}</figcaption>
+        </figure>
       </div>
       <div class="movie-content">
         <h1>Title: {{ movie.title }}</h1>
@@ -39,7 +39,7 @@
             })
           }}
         </p>
-        <p class="movie-fact"><span>Overview:</span> {{ movie.overview }}</p>
+        <p class="movie-fact"><span>Overview By Nexlogixs:</span> {{ movie.overview }}</p>
       </div>
     </div>
   </div>
