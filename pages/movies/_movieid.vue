@@ -8,8 +8,8 @@
     <div class="movie-info">
       <div class="movie-img">
         <figure>
-          <img :src="`https://image.tmdb.org/t/p/w500/${movie.poster_path}`" alt="No Image In Nexlogixs" />
-          <figcaption>Nexlogixs {{ movie.title.slice(0, 25)}}</figcaption>
+          <img :src="`https://image.tmdb.org/t/p/w500/${movie.poster_path}`" alt="No Image In Nextlogixs" />
+          <figcaption>Nextlogixs {{ movie.title.slice(0, 25)}}</figcaption>
         </figure>
       </div>
       <div class="movie-content">
@@ -39,7 +39,7 @@
             })
           }}
         </p>
-        <p class="movie-fact"><span>Overview By Nexlogixs:</span> {{ movie.overview }}</p>
+        <p class="movie-fact"><span>Overview By Nextlogixs:</span> {{ movie.overview }}</p>
       </div>
     </div>
   </div>
