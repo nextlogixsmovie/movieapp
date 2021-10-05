@@ -3,8 +3,8 @@
 		<div v-for="(movie, index) in movies" :key="index" class="movie">
 			<div class="movie-img">
 				<figure>
-				    <img :src="`https://image.tmdb.org/t/p/w500/${movie.poster_path}`" alt="No Image In Nexlogixs" />
-				    <figcaption>Nexlogixs {{ movie.title.slice(0, 25)}}</figcaption>
+				    <img :src="`https://image.tmdb.org/t/p/w500/${movie.poster_path}`" alt="No Image In Nextlogixs" />
+				    <figcaption>Nextlogixs {{ movie.title.slice(0, 25)}}</figcaption>
 				</figure>
 				<p class="review">{{ movie.vote_average }}</p>
 				<p class="overview">{{ movie.overview }}</p>
