@@ -4,7 +4,7 @@
     <Hero />
       <!-- Search -->
     <div class="container search">
-      <input type="text" v-model="searchInput" placeholder="Search In Nexlogixs" @keyup.enter="$fetch"/>
+      <input type="text" v-model="searchInput" placeholder="Search In Nextlogixs" @keyup.enter="$fetch"/>
       <button v-show="searchInput" class="button" @click="clearSearch">Clear Search</button>
     </div>
         <!-- Loading Animation -->
